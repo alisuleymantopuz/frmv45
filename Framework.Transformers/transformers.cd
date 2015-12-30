@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Framework.Transformers.CloneInjection">
+    <Position X="1.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CloneInjection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.Transformers.EmptyTransformers" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EmptyTransformers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Framework.Transformers.ObjectCopier" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>ObjectCopier.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Framework.Transformers.ObjectTransformationRule&lt;T&gt;" BaseTypeListCollapsed="true">
+    <Position X="7" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAgACAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectTransformationRule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Framework.Transformers.PropertyExpressions&lt;T&gt;" BaseTypeListCollapsed="true">
+    <Position X="9" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAQAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAA=</HashCode>
+      <FileName>PropertyExpressions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Framework.Transformers.PropertyMaskingRule&lt;T&gt;">
+    <Position X="10.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>PropertyMaskingRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.Transformers.PropertyTransformationRule&lt;T&gt;">
+    <Position X="10.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAgAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>PropertyTransformationRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.Transformers.PropertyTransformationRuleExecutor&lt;T&gt;" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAgAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PropertyTransformationRuleExecutor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Framework.Transformers.PropertyTransformationRuleSetup&lt;T&gt;" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAEAAAACAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>PropertyTransformationRuleSetup.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="Framework.Transformers.IObjectCopier">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>IObjectCopier.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Framework.Transformers.IObjectTransformationRuleExecutor">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IObjectTransformationRuleExecutor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Framework.Transformers.IPropertyExpressions&lt;T&gt;">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAA=</HashCode>
+      <FileName>IPropertyExpressions.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Framework.Transformers.IPropertyTransformationRuleExecutor&lt;T&gt;">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPropertyTransformationRuleExecutor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Framework.Transformers.IPropertyTransformationRuleSetup&lt;T&gt;">
+    <Position X="7" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPropertyTransformationRuleSetup.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

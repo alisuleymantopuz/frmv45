@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{453CC1C3-3B49-497A-941F-3BD52116A790}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Framework.Container</RootNamespace>
+    <AssemblyName>Framework.Container</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core">
+      <HintPath>..\packages\Castle.Core.3.2.2\lib\net45\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Windsor">
+      <HintPath>..\packages\Castle.Windsor.3.2.1\lib\net45\Castle.Windsor.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog">
+      <HintPath>..\packages\NLog.3.1.0.0\lib\net45\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrameworkSecurityInstaller.cs" />
+    <Compile Include="FrameworkConfigurationInstaller.cs" />
+    <Compile Include="FrameworkLoggingInstaller.cs" />
+    <Compile Include="FrameworkRepositoryInstaller.cs" />
+    <Compile Include="FrameworkSerializerInstaller.cs" />
+    <Compile Include="FrameworkStateStorageInstaller.cs" />
+    <Compile Include="FrameworkTransformersFactorySelector.cs" />
+    <Compile Include="FrameworkTransformersInstaller.cs" />
+    <Compile Include="FrameworkTransformersList.cs" />
+    <Compile Include="IFrameworkTransformersFactory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FrameworkTransformersFacility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Framework.Configuration\Framework.Configuration.csproj">
+      <Project>{c966cbee-c77e-4b8a-8e3a-9b89895ce8a6}</Project>
+      <Name>Framework.Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Framework.Logging\Framework.Logging.csproj">
+      <Project>{7cc1d1a3-ff5b-47c2-a6bd-8268909fd7b6}</Project>
+      <Name>Framework.Logging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Framework.Repository\Framework.Repository.csproj">
+      <Project>{647290d8-7246-4214-8647-bd7dbb8dea16}</Project>
+      <Name>Framework.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Framework.Security\Framework.Security.csproj">
+      <Project>{ad2aa83a-66c1-4906-a310-a6fdbb0e1862}</Project>
+      <Name>Framework.Security</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Framework.Serialization\Framework.Serialization.csproj">
+      <Project>{24bccbc2-bc44-4f0f-b6aa-a2e7eae1141c}</Project>
+      <Name>Framework.Serialization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Framework.Specifications\Framework.Specifications.csproj">
+      <Project>{9bd92cca-6425-4941-a4d6-4cc42a871b78}</Project>
+      <Name>Framework.Specifications</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Framework.StateStorage\Framework.StateStorage.csproj">
+      <Project>{8cc53c8d-88c7-4fa3-b4a6-ff35e6323e34}</Project>
+      <Name>Framework.StateStorage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Framework.Transformers\Framework.Transformers.csproj">
+      <Project>{e84a1a68-95c4-400e-ab3f-dd2082ab1c55}</Project>
+      <Name>Framework.Transformers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

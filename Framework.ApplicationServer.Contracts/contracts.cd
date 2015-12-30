@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Framework.ApplicationServer.Contracts.Data.PagedRequestBase" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\PagedRequestBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.ApplicationServer.Contracts.Data.PagedRequestInfo" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Data\PagedRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.ApplicationServer.Contracts.Data.PagedResponseBase" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Data\PagedResponseBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.ApplicationServer.Contracts.Data.PagedResponseInfo" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Data\PagedResponseInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.ApplicationServer.Contracts.Data.RequestBase" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\RequestBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.ApplicationServer.Contracts.Data.RequestInfo" Collapsed="true">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgQAAAAgAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Data\RequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.ApplicationServer.Contracts.Data.ResponseBase" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\ResponseBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.ApplicationServer.Contracts.Data.ResponseInfo" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAgAAAAAAAAIgAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Data\ResponseInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Framework.ApplicationServer.Contracts.Data.IPagedRequestBase" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\IPagedRequestBase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Framework.ApplicationServer.Contracts.Data.IPagedRequestInfo" Collapsed="true">
+    <Position X="6" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Data\IPagedRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Framework.ApplicationServer.Contracts.Data.IPagedResponseBase" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Data\IPagedResponseBase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Framework.ApplicationServer.Contracts.Data.IPagedResponseInfo" Collapsed="true">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Data\IPagedResponseInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Framework.ApplicationServer.Contracts.Data.IRequestBase" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\IRequestBase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Framework.ApplicationServer.Contracts.Data.IRequestInfo" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgQAAAAgAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Data\IRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Framework.ApplicationServer.Contracts.Data.IResponseBase" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\IResponseBase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Framework.ApplicationServer.Contracts.Data.IResponseInfo" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAgAAEAAAAAIAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Data\IResponseInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Framework.ApplicationServer.Contracts.Data.ResponseStatus" Collapsed="true">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\ResponseStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

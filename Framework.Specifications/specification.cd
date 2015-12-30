@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Framework.Specifications.BusinessSpecificationMessage">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>BusinessSpecificationMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.Specifications.BusinessSpecificationResult&lt;T&gt;">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>BusinessSpecificationResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.Specifications.AndSpecification&lt;T&gt;" Collapsed="true">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAgAAAAAAAA=</HashCode>
+      <FileName>AndSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.Specifications.CompositeSpecification&lt;T&gt;" Collapsed="true">
+    <Position X="7.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAACAAAABgAAAAAAAAAAA=</HashCode>
+      <FileName>CompositeSpecification.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Framework.Specifications.ExpressionSpecification&lt;T&gt;" Collapsed="true">
+    <Position X="7.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAAAAAAAAAA=</HashCode>
+      <FileName>ExpressionSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.Specifications.NotSpecification&lt;T&gt;" Collapsed="true">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>NotSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.Specifications.OrSpecification&lt;T&gt;" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAgAAAAAAAA=</HashCode>
+      <FileName>OrSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Framework.Specifications.IBusinessSpecificationRule&lt;T&gt;">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAIAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>IBusinessSpecificationRule.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Framework.Specifications.ISpecification&lt;T&gt;" Collapsed="true">
+    <Position X="6" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAACAAAABgAAAAAAAAAAA=</HashCode>
+      <FileName>ISpecification.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

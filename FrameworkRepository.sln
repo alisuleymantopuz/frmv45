@@ -1,0 +1,231 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Configuration", "Framework.Configuration\Framework.Configuration.csproj", "{C966CBEE-C77E-4B8A-8E3A-9B89895CE8A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.ApplicationServer.Contracts", "Framework.ApplicationServer.Contracts\Framework.ApplicationServer.Contracts.csproj", "{F248603E-1440-4DAB-B8D1-5AAA92D434D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Exception", "Framework.Exception\Framework.Exception.csproj", "{48B78674-8A14-49B5-B6A3-C0D88E8E1D35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Utility", "Framework.Utility\Framework.Utility.csproj", "{ADCCC4FE-99D9-46BD-AF6A-B0F25DAA9A95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Mvc.Utility", "Framework.Mvc.Utility\Framework.Mvc.Utility.csproj", "{266BCDFD-F158-41DB-82E2-CCEA92B157CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.StateStorage", "Framework.StateStorage\Framework.StateStorage.csproj", "{8CC53C8D-88C7-4FA3-B4A6-FF35E6323E34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework45", "Framework45", "{8736F732-E662-4F2F-B281-C04B9696B770}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D5822E0C-4049-4E1D-A573-58FE11C0D728}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{37D94796-45E6-4D2D-AB81-D789CE2E7D2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{4F6FB477-CE35-4146-BEF0-6F337563A0B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Logging", "Framework.Logging\Framework.Logging.csproj", "{7CC1D1A3-FF5B-47C2-A6BD-8268909FD7B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Transformers", "Framework.Transformers\Framework.Transformers.csproj", "{E84A1A68-95C4-400E-AB3F-DD2082AB1C55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Specifications", "Framework.Specifications\Framework.Specifications.csproj", "{9BD92CCA-6425-4941-A4D6-4CC42A871B78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Serialization", "Framework.Serialization\Framework.Serialization.csproj", "{24BCCBC2-BC44-4F0F-B6AA-A2E7EAE1141C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Repository", "Framework.Repository\Framework.Repository.csproj", "{647290D8-7246-4214-8647-BD7DBB8DEA16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Common.UnitTests", "Framework.Common.UnitTests\Framework.Common.UnitTests.csproj", "{14ED818F-F5A0-4B4C-AC75-1263CEDF13A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Core.UnitTests", "Framework.Core.UnitTests\Framework.Core.UnitTests.csproj", "{BA58E8EC-BDD9-4D7D-8EED-125AA0FB064D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.UI.UnitTests", "Framework.UI.UnitTests\Framework.UI.UnitTests.csproj", "{6DEA6266-0665-4551-A7FF-9D74AC738B1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Security", "Framework.Security\Framework.Security.csproj", "{AD2AA83A-66C1-4906-A310-A6FDBB0E1862}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Container", "Framework.Container\Framework.Container.csproj", "{453CC1C3-3B49-497A-941F-3BD52116A790}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.UI.UnitTests.Web", "Framework.UI.UnitTests.Web\Framework.UI.UnitTests.Web.csproj", "{A52E181B-BBB8-413F-AF23-BDCDD3245C31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.ApplicationServer.Helpers", "Framework.ApplicationServer.Paging\Framework.ApplicationServer.Helpers.csproj", "{F49370FA-5C69-4C07-9708-F95AA481B4DC}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 19
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://developmentastpz.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Framework.ApplicationServer.Contracts\\Framework.ApplicationServer.Contracts.csproj
+		SccProjectTopLevelParentUniqueName1 = FrameworkRepository.sln
+		SccProjectName1 = Framework.ApplicationServer.Contracts
+		SccLocalPath1 = Framework.ApplicationServer.Contracts
+		SccProjectUniqueName2 = Framework.Common.UnitTests\\Framework.Common.UnitTests.csproj
+		SccProjectTopLevelParentUniqueName2 = FrameworkRepository.sln
+		SccProjectName2 = Framework.Common.UnitTests
+		SccLocalPath2 = Framework.Common.UnitTests
+		SccProjectUniqueName3 = Framework.Configuration\\Framework.Configuration.csproj
+		SccProjectTopLevelParentUniqueName3 = FrameworkRepository.sln
+		SccProjectName3 = Framework.Configuration
+		SccLocalPath3 = Framework.Configuration
+		SccProjectUniqueName4 = Framework.Core.UnitTests\\Framework.Core.UnitTests.csproj
+		SccProjectTopLevelParentUniqueName4 = FrameworkRepository.sln
+		SccProjectName4 = Framework.Core.UnitTests
+		SccLocalPath4 = Framework.Core.UnitTests
+		SccProjectUniqueName5 = Framework.Exception\\Framework.Exception.csproj
+		SccProjectTopLevelParentUniqueName5 = FrameworkRepository.sln
+		SccProjectName5 = Framework.Exception
+		SccLocalPath5 = Framework.Exception
+		SccProjectUniqueName6 = Framework.Logging\\Framework.Logging.csproj
+		SccProjectTopLevelParentUniqueName6 = FrameworkRepository.sln
+		SccProjectName6 = Framework.Logging
+		SccLocalPath6 = Framework.Logging
+		SccProjectUniqueName7 = Framework.Mvc.Utility\\Framework.Mvc.Utility.csproj
+		SccProjectTopLevelParentUniqueName7 = FrameworkRepository.sln
+		SccProjectName7 = Framework.Mvc.Utility
+		SccLocalPath7 = Framework.Mvc.Utility
+		SccProjectUniqueName8 = Framework.Repository\\Framework.Repository.csproj
+		SccProjectTopLevelParentUniqueName8 = FrameworkRepository.sln
+		SccProjectName8 = Framework.Repository
+		SccLocalPath8 = Framework.Repository
+		SccProjectUniqueName9 = Framework.Security\\Framework.Security.csproj
+		SccProjectTopLevelParentUniqueName9 = FrameworkRepository.sln
+		SccProjectName9 = Framework.Security
+		SccLocalPath9 = Framework.Security
+		SccProjectUniqueName10 = Framework.Serialization\\Framework.Serialization.csproj
+		SccProjectTopLevelParentUniqueName10 = FrameworkRepository.sln
+		SccProjectName10 = Framework.Serialization
+		SccLocalPath10 = Framework.Serialization
+		SccProjectUniqueName11 = Framework.Specifications\\Framework.Specifications.csproj
+		SccProjectTopLevelParentUniqueName11 = FrameworkRepository.sln
+		SccProjectName11 = Framework.Specifications
+		SccLocalPath11 = Framework.Specifications
+		SccProjectUniqueName12 = Framework.StateStorage\\Framework.StateStorage.csproj
+		SccProjectTopLevelParentUniqueName12 = FrameworkRepository.sln
+		SccProjectName12 = Framework.StateStorage
+		SccLocalPath12 = Framework.StateStorage
+		SccProjectUniqueName13 = Framework.Transformers\\Framework.Transformers.csproj
+		SccProjectTopLevelParentUniqueName13 = FrameworkRepository.sln
+		SccProjectName13 = Framework.Transformers
+		SccLocalPath13 = Framework.Transformers
+		SccProjectUniqueName14 = Framework.UI.UnitTests\\Framework.UI.UnitTests.csproj
+		SccProjectTopLevelParentUniqueName14 = FrameworkRepository.sln
+		SccProjectName14 = Framework.UI.UnitTests
+		SccLocalPath14 = Framework.UI.UnitTests
+		SccProjectUniqueName15 = Framework.Utility\\Framework.Utility.csproj
+		SccProjectTopLevelParentUniqueName15 = FrameworkRepository.sln
+		SccProjectName15 = Framework.Utility
+		SccLocalPath15 = Framework.Utility
+		SccProjectUniqueName16 = Framework.Container\\Framework.Container.csproj
+		SccProjectTopLevelParentUniqueName16 = FrameworkRepository.sln
+		SccProjectName16 = Framework.Container
+		SccLocalPath16 = Framework.Container
+		SccProjectUniqueName17 = Framework.UI.UnitTests.Web\\Framework.UI.UnitTests.Web.csproj
+		SccProjectTopLevelParentUniqueName17 = FrameworkRepository.sln
+		SccProjectName17 = Framework.UI.UnitTests.Web
+		SccLocalPath17 = Framework.UI.UnitTests.Web
+		SccProjectUniqueName18 = Framework.ApplicationServer.Paging\\Framework.ApplicationServer.Helpers.csproj
+		SccProjectTopLevelParentUniqueName18 = FrameworkRepository.sln
+		SccProjectName18 = Framework.ApplicationServer.Paging
+		SccLocalPath18 = Framework.ApplicationServer.Paging
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C966CBEE-C77E-4B8A-8E3A-9B89895CE8A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C966CBEE-C77E-4B8A-8E3A-9B89895CE8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C966CBEE-C77E-4B8A-8E3A-9B89895CE8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C966CBEE-C77E-4B8A-8E3A-9B89895CE8A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F248603E-1440-4DAB-B8D1-5AAA92D434D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F248603E-1440-4DAB-B8D1-5AAA92D434D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F248603E-1440-4DAB-B8D1-5AAA92D434D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F248603E-1440-4DAB-B8D1-5AAA92D434D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48B78674-8A14-49B5-B6A3-C0D88E8E1D35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B78674-8A14-49B5-B6A3-C0D88E8E1D35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B78674-8A14-49B5-B6A3-C0D88E8E1D35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B78674-8A14-49B5-B6A3-C0D88E8E1D35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADCCC4FE-99D9-46BD-AF6A-B0F25DAA9A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADCCC4FE-99D9-46BD-AF6A-B0F25DAA9A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADCCC4FE-99D9-46BD-AF6A-B0F25DAA9A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADCCC4FE-99D9-46BD-AF6A-B0F25DAA9A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{266BCDFD-F158-41DB-82E2-CCEA92B157CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{266BCDFD-F158-41DB-82E2-CCEA92B157CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{266BCDFD-F158-41DB-82E2-CCEA92B157CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{266BCDFD-F158-41DB-82E2-CCEA92B157CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CC53C8D-88C7-4FA3-B4A6-FF35E6323E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC53C8D-88C7-4FA3-B4A6-FF35E6323E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC53C8D-88C7-4FA3-B4A6-FF35E6323E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC53C8D-88C7-4FA3-B4A6-FF35E6323E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CC1D1A3-FF5B-47C2-A6BD-8268909FD7B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC1D1A3-FF5B-47C2-A6BD-8268909FD7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CC1D1A3-FF5B-47C2-A6BD-8268909FD7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CC1D1A3-FF5B-47C2-A6BD-8268909FD7B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E84A1A68-95C4-400E-AB3F-DD2082AB1C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E84A1A68-95C4-400E-AB3F-DD2082AB1C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E84A1A68-95C4-400E-AB3F-DD2082AB1C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E84A1A68-95C4-400E-AB3F-DD2082AB1C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BD92CCA-6425-4941-A4D6-4CC42A871B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD92CCA-6425-4941-A4D6-4CC42A871B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD92CCA-6425-4941-A4D6-4CC42A871B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD92CCA-6425-4941-A4D6-4CC42A871B78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24BCCBC2-BC44-4F0F-B6AA-A2E7EAE1141C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24BCCBC2-BC44-4F0F-B6AA-A2E7EAE1141C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24BCCBC2-BC44-4F0F-B6AA-A2E7EAE1141C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24BCCBC2-BC44-4F0F-B6AA-A2E7EAE1141C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{647290D8-7246-4214-8647-BD7DBB8DEA16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647290D8-7246-4214-8647-BD7DBB8DEA16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647290D8-7246-4214-8647-BD7DBB8DEA16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647290D8-7246-4214-8647-BD7DBB8DEA16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14ED818F-F5A0-4B4C-AC75-1263CEDF13A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14ED818F-F5A0-4B4C-AC75-1263CEDF13A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14ED818F-F5A0-4B4C-AC75-1263CEDF13A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14ED818F-F5A0-4B4C-AC75-1263CEDF13A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA58E8EC-BDD9-4D7D-8EED-125AA0FB064D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA58E8EC-BDD9-4D7D-8EED-125AA0FB064D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA58E8EC-BDD9-4D7D-8EED-125AA0FB064D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA58E8EC-BDD9-4D7D-8EED-125AA0FB064D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DEA6266-0665-4551-A7FF-9D74AC738B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DEA6266-0665-4551-A7FF-9D74AC738B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DEA6266-0665-4551-A7FF-9D74AC738B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DEA6266-0665-4551-A7FF-9D74AC738B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD2AA83A-66C1-4906-A310-A6FDBB0E1862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD2AA83A-66C1-4906-A310-A6FDBB0E1862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD2AA83A-66C1-4906-A310-A6FDBB0E1862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD2AA83A-66C1-4906-A310-A6FDBB0E1862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{453CC1C3-3B49-497A-941F-3BD52116A790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{453CC1C3-3B49-497A-941F-3BD52116A790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{453CC1C3-3B49-497A-941F-3BD52116A790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{453CC1C3-3B49-497A-941F-3BD52116A790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A52E181B-BBB8-413F-AF23-BDCDD3245C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A52E181B-BBB8-413F-AF23-BDCDD3245C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A52E181B-BBB8-413F-AF23-BDCDD3245C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A52E181B-BBB8-413F-AF23-BDCDD3245C31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F49370FA-5C69-4C07-9708-F95AA481B4DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F49370FA-5C69-4C07-9708-F95AA481B4DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F49370FA-5C69-4C07-9708-F95AA481B4DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F49370FA-5C69-4C07-9708-F95AA481B4DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D5822E0C-4049-4E1D-A573-58FE11C0D728} = {8736F732-E662-4F2F-B281-C04B9696B770}
+		{4F6FB477-CE35-4146-BEF0-6F337563A0B7} = {8736F732-E662-4F2F-B281-C04B9696B770}
+		{37D94796-45E6-4D2D-AB81-D789CE2E7D2B} = {8736F732-E662-4F2F-B281-C04B9696B770}
+		{14ED818F-F5A0-4B4C-AC75-1263CEDF13A8} = {8736F732-E662-4F2F-B281-C04B9696B770}
+		{BA58E8EC-BDD9-4D7D-8EED-125AA0FB064D} = {8736F732-E662-4F2F-B281-C04B9696B770}
+		{6DEA6266-0665-4551-A7FF-9D74AC738B1B} = {8736F732-E662-4F2F-B281-C04B9696B770}
+		{A52E181B-BBB8-413F-AF23-BDCDD3245C31} = {8736F732-E662-4F2F-B281-C04B9696B770}
+		{8CC53C8D-88C7-4FA3-B4A6-FF35E6323E34} = {D5822E0C-4049-4E1D-A573-58FE11C0D728}
+		{C966CBEE-C77E-4B8A-8E3A-9B89895CE8A6} = {D5822E0C-4049-4E1D-A573-58FE11C0D728}
+		{F248603E-1440-4DAB-B8D1-5AAA92D434D0} = {D5822E0C-4049-4E1D-A573-58FE11C0D728}
+		{7CC1D1A3-FF5B-47C2-A6BD-8268909FD7B6} = {D5822E0C-4049-4E1D-A573-58FE11C0D728}
+		{E84A1A68-95C4-400E-AB3F-DD2082AB1C55} = {D5822E0C-4049-4E1D-A573-58FE11C0D728}
+		{9BD92CCA-6425-4941-A4D6-4CC42A871B78} = {D5822E0C-4049-4E1D-A573-58FE11C0D728}
+		{24BCCBC2-BC44-4F0F-B6AA-A2E7EAE1141C} = {D5822E0C-4049-4E1D-A573-58FE11C0D728}
+		{647290D8-7246-4214-8647-BD7DBB8DEA16} = {D5822E0C-4049-4E1D-A573-58FE11C0D728}
+		{AD2AA83A-66C1-4906-A310-A6FDBB0E1862} = {D5822E0C-4049-4E1D-A573-58FE11C0D728}
+		{453CC1C3-3B49-497A-941F-3BD52116A790} = {D5822E0C-4049-4E1D-A573-58FE11C0D728}
+		{F49370FA-5C69-4C07-9708-F95AA481B4DC} = {D5822E0C-4049-4E1D-A573-58FE11C0D728}
+		{ADCCC4FE-99D9-46BD-AF6A-B0F25DAA9A95} = {4F6FB477-CE35-4146-BEF0-6F337563A0B7}
+		{48B78674-8A14-49B5-B6A3-C0D88E8E1D35} = {4F6FB477-CE35-4146-BEF0-6F337563A0B7}
+		{266BCDFD-F158-41DB-82E2-CCEA92B157CB} = {37D94796-45E6-4D2D-AB81-D789CE2E7D2B}
+	EndGlobalSection
+EndGlobal

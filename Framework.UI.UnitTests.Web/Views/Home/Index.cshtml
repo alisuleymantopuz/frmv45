@@ -1,0 +1,25 @@
+﻿@model Framework.UI.UnitTests.Web.Models.LogModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+
+    <fieldset>
+        <legend>LogModel</legend>
+
+        <div class="editor-field">
+            @Html.EditorFor(model => model.RequestDate) 
+        </div>
+
+        <p>
+            <input type="submit" value="Post" />
+        </p>
+    </fieldset>
+}
+ 
+ 

@@ -1,0 +1,28 @@
+﻿@using Framework.Mvc.Utility.HtmlHelpers
+@model Framework.UI.UnitTests.Web.Models.ProductModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken() 
+
+    <fieldset>
+        <legend>ProductModel</legend>
+
+
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Price)
+        </div>
+
+        @Html.Truncate("Description", Model.Description,10)
+
+        <p>
+            <input type="submit" value="Post" />
+        </p>
+    </fieldset>
+}
